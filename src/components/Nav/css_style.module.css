@@ -1,0 +1,36 @@
+/* .main{
+    position: fixed;
+    width: 100%;
+    position: relative;
+} */
+.sectionContaine{
+    display: flex;
+    align-items: center;
+    /* position: fixed; */
+}
+
+.sectioUi{
+    display: flex;
+    list-style-type: none;
+    /* justify-content: center; */
+    /* padding: 0;
+    margin: 0; */
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+}
+/* .navLi{
+    padding: 10px 20px;
+    align-items: center;
+} */
+.Btn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+}
+.Btn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: blue;
+}
